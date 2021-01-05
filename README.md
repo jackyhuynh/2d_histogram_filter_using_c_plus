@@ -4,13 +4,16 @@ A 2D histogram is very similar like 1D histogram. The class intervals of the dat
 Unlike 1D histogram, it drawn by including the total number of combinations of the values which occur in intervals of x and y, and marking the densities. It is useful when there is a large amount of data in a discrete distribution, and simplifies it by visualizing the points where the frequencies if variables are dense.
 
 Udacity Intro to Self-Driving Cars Nanodegree Project : 2D Histogram Filter in C++
-![alt](https://github.com/jackyhuynh/linuxShell-app/blob/main/src/picture/Diagram.png)
+
+![alt](https://github.com/jackyhuynh/2D-Histogram-Filter/blob/master/src/picture/histogram_filter_example.pngg)
 
 ## Technology
 - C++ Programming
 - g++ compiler
 - data structures
 - C++ Optimization methods
+- Object Oriented Programming
+- Self-Driving Car Development
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -36,10 +39,17 @@ Linux Ubuntu 18.4 LTS
 Explain how to run the automated tests for this system:
 * [Linux Compilers](https://askubuntu.com/questions/61408/what-is-a-command-to-compile-and-run-c-programs#:~:text=The%20simplest%20way%20to%20compile%20a%20C%2B%2B%20program,only%20compiler%20capable%20of%20compiling%20the%20Linux%20kernel.)- Locate the home folder that contains the program (by using the cd command). Call the g++ compiler and execute.
 * [Visual Studio Command Line](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-160)
+- Simply type this in the Linux terminal window:
+```
+cd optimized_code
 
+g++ -std=c++11 main.cpp blur_improved.cpp initialize_beliefs_improved.cpp move_improved.cpp normalize_improved.cpp print.cpp sense_improved.cpp zeros_improved.cpp
+
+./a.out
+```
 ### Result
 
-![alt](https://github.com/jackyhuynh/linuxShell-app/blob/main/src/picture/TrucShell.PNG)
+![alt](https://github.com/jackyhuynh/2D-Histogram-Filter/blob/master/src/picture/Result.PNG)
 
 ## Deployment
 
@@ -65,16 +75,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Format
 my README.md format was retrieved from
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
 
 
