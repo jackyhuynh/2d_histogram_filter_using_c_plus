@@ -5,7 +5,7 @@ Unlike 1D histogram, it drawn by including the total number of combinations of t
 
 Udacity Intro to Self-Driving Cars Nanodegree Project : 2D Histogram Filter in C++
 
-![alt](https://github.com/jackyhuynh/2D-Histogram-Filter/blob/master/src/picture/histogram_filter_example.pngg)
+![alt](https://github.com/jackyhuynh/2D-Histogram-Filter/blob/master/src/picture/histogram_filter_example.png)
 
 ## Technology
 - C++ Programming
